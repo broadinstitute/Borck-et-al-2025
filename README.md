@@ -20,7 +20,7 @@ pelo-manuscript/
 |_ outputs/ #created at runtime 
 |  |_ ... output files from analyses
 |_ figures/ #created at runtime
-|     |_ ... figures as PNG and PDF
+|  |_ ... figures as PNG and PDF
 |_ Fig 1 + Ext Data Fig 1.ipynb
 |_ Fig 2 + Ext Data Fig 2.ipynb
 |_ Fig 3 + Ext Data Fig 3.ipynb
