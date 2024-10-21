@@ -7,7 +7,7 @@ To reproduce the figures and/or analysis, follow these steps.
 ```
 pip install -r pelo-manuscript/requirements.txt
 ```
-4. (Optional) The processed data produced in this study is available on figshare at https://doi.org/0.6084/m9.figshare.27249741.v1[https://doi.org/0.6084/m9.figshare.27249741.v1], you can use "Download all" to get the dataset as a zipped folder.  Unzip it, rename the folder to ```data```, and place it in the ```pelo-manuscript``` directory.
+4. (Optional) The processed data produced in this study is available on figshare at https://doi.org/0.6084/m9.figshare.27249741.v1, you can use "Download all" to get the dataset as a zipped folder.  Unzip it, rename the folder to ```data```, and place it in the ```pelo-manuscript``` directory.
 5. Download the "Source Data" files from the manuscript, and set the ```SOURCE_DATA_FIG``` and ```SOURCE_DATA_EXT_FIG``` paths at the start of the notebook to the local paths to these files.
 
 All notebooks in this repository begin with a codeblock which reads in the figshare dataset (if it is not already present), as well as files from other publications/resources, and then saves them locally to the ```data``` folder.  All outputs produced by the script are saved to the ```outputs``` folder and all figures are saved to the ```figures``` folder.
