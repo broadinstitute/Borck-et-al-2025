@@ -47,7 +47,7 @@ def download_other_files(name):
             print("tried to read 'ccle_proteomics' file from PMC but failed. Download supplementary table 2 (NIHMS1569324-supplement-TS2.xlsx) from PMID: 31978347, and save as data/ccle_proteomics.csv")
     elif name == "HGNC_complete_set":
         pd.read_csv(
-            r"https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/quarterly/tsv/hgnc_complete_set_2024-01-01.tsv", 
+            r"https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/tsv/hgnc_complete_set_2024-01-01.txt", 
             sep="\t"
         ).to_csv("data/HGNC_complete_set.csv", index=None)
 
