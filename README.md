@@ -15,11 +15,11 @@ All notebooks in this repository begin with a codeblock which reads in the figsh
 The file structure should look as follows:
 ```
 pelo-manuscript/
-| |_ data/ #either downloaded from figshare or fetched automatically
-| |   |_ ... raw CSVs of data
-| |_ outputs/ #created at runtime 
-| |   |_ ... output files from analyses
-| |_ figures #created at runtime
+|_ data/ #either downloaded from figshare or fetched automatically
+|  |_ ... raw CSVs of data
+|_ outputs/ #created at runtime 
+|  |_ ... output files from analyses
+|_ figures/ #created at runtime
 |     |_ ... figures as PNG and PDF
 |_ Fig 1 + Ext Data Fig 1.ipynb
 |_ Fig 2 + Ext Data Fig 2.ipynb
