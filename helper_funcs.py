@@ -10,7 +10,7 @@ from PIL import Image
 
 ### Data downloads ###
 
-IMG_FOLDER = "FINAL Raw WB Images/"
+IMG_FOLDER = "/Users/iboyle/Files/TargetDiscovery/PELO/PELO-dev/FINAL Raw WB Images/"
 
 FIGSHARE_FILE_MAP = {
     "CRISPRGeneEffect":"43346616",
@@ -111,7 +111,7 @@ def set_params():
     from matplotlib import rcParams
     rcParams['axes.spines.right'] = False
     rcParams['axes.spines.top'] = False
-    rcParams['savefig.dpi'] = 300
+    rcParams['savefig.dpi'] = 500
     rcParams['savefig.transparent'] = False
     rcParams['font.family'] = 'Arial'
     rcParams['figure.dpi'] = 200
