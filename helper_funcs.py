@@ -274,7 +274,7 @@ def to_scientific(val, prefix="$p$="):
     Format a float (val) scientifically.
     '''
     if val == 0:
-        return prefix+"0.00"
+        return prefix+"0.000"
     elif val < 1e-3:
         return prefix+"{:.2e}".format(val).replace("e", "x10$^{")+"}$"
     else:
