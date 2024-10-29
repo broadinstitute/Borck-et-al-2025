@@ -1,1 +1,0 @@
-Copy the data from Figshare (https://doi.org/0.6084/m9.figshare.27249741.v1 > Download all) into this folder.  Additional files will be read in by the notebooks (see helper_func.py).

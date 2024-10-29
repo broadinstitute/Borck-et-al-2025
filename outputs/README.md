@@ -1,1 +1,0 @@
-Outputs from notebooks will be added in this folder.
