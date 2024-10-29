@@ -455,7 +455,7 @@ def sem(s):
 
 def fancybar(
     data, x, y, hue=None, palette=None, hue_order=None, order=None, ax=None, capsize=0.1, edgewidth=0.1, s=5, 
-    errorbar="se", dodge=True, width=0.75, err_kws=dict(linewidth=0.5), bar_alpha=0.5
+    errorbar=sem, dodge=True, width=0.75, err_kws=dict(linewidth=0.5), bar_alpha=0.5
 ):
     '''
     Produce a nicely styled barplot with points.
